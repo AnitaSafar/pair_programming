@@ -64,3 +64,12 @@ short_months = {
 def number_to_short_month_name(short_month):
     return(short_months[short_month])
     
+
+def test_volume_of_cube(sidelength):
+    return(sidelength ** 3)
+
+def test_reverse_string(string):
+    return(string).reverse
+
+def test_fahrenheit_to_celsius(warmth):
+    return(warmth - 32 * .5556 )
